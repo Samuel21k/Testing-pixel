@@ -1,5 +1,5 @@
-from selenium.webdriver import Keys
 from seleniumbase import BaseCase
+
 
 class HomeTest(BaseCase):
 
