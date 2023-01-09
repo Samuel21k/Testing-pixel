@@ -53,7 +53,8 @@ class HomeTest(BaseCase):
             self.click('//*[@id="modalBody"]/div/div/div[1]/span[1]')
             self.click("#modalBody > div > div > div.nav-buttons-holder > span.btn-cta.cta-blue-gradiant")
             self.type('#amount', '5000')
-            self.click("#modalBody > div > div > form > div.nav-buttons-holder > div > button")
+            self.wait(5)
+            #self.click("#modalBody > div > div > form > div.nav-buttons-holder > div > button")
 
         def test_self_exclusion(self):
             # open home page
@@ -86,9 +87,11 @@ class HomeTest(BaseCase):
             self.click('button[type="submit"]')
 
             self.click('a[href*="casino"]')
-            self.type('#search-box', "md cars")
-
-
+            self.type('#search-box', "mad cars")
+            self.wait(8)
+            self.click("/html/body/div[3]/div/div/div[1]/div[2]/div/div/div[2]/div/div/div[1]/div[2]/section[2]/div/ul/li[1]/div[1]/div[1]/div[4]")
+            self.click("#pixelContent > div.container-fluid > div > div > div.game-page-container > div.game-image-details > div.game-details > div.game-btns > div.try-game.btn-purple-box")
+            self.wait(5)
 
 
 

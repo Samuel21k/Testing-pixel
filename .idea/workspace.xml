@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95060f76-94ff-4b5f-909f-68a8f0a5db5b" name="Changes" comment="" />
+    <list default="true" id="95060f76-94ff-4b5f-909f-68a8f0a5db5b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/latest_logs/test_pixel.HomeTest.test_search/basic_test_info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latest_logs/test_pixel.HomeTest.test_search/page_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latest_logs/test_pixel.HomeTest.test_search/screenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_pixel.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pixel.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/sdrrs/PycharmProjects/pixelpython/tests/test_pixel.py",
-    "settings.editor.selected.configurable": "terminal"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
