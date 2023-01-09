@@ -1,24 +1,26 @@
 test_pixel.py::HomeTest::test_search
 --------------------------------------------------------------------
 Last Page: https://www.pixel.bet/en/casino
- Duration: 19.31s
+ Duration: 19.95s
   Browser: Chrome 108.0.5359.125
    Driver: chromedriver 108.0.5359.71
-Timestamp: 1673282309  (Unix Timestamp)
+Timestamp: 1673296938  (Unix Timestamp)
      Date: Monday, 9 January 2023
-     Time: 5:38:29 PM  (W. Europe Daylight Time, UTC+01:00)
+     Time: 9:42:18 PM  (W. Europe Daylight Time, UTC+01:00)
 --------------------------------------------------------------------
 Traceback: File "C:\Users\sdrrs\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 676, in run
     self._callTestMethod(testMethod)
   File "C:\Users\sdrrs\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 633, in _callTestMethod
     method()
   File "C:\Users\sdrrs\Documents\GitHub\Testing-pixel\test_pixel.py", line 92, in test_search
-    self.click("/html/body/div[3]/div/div/div[1]/div[2]/div/div/div[2]/div/div/div[1]/div[2]/section[2]/div/ul/li[1]/div[1]/div[1]/div[4]")
-  File "C:\Users\sdrrs\AppData\Local\Programs\Python\Python38\lib\site-packages\seleniumbase\fixtures\base_case.py", line 337, in click
-    element = page_actions.wait_for_element_visible(
-  File "C:\Users\sdrrs\AppData\Local\Programs\Python\Python38\lib\site-packages\seleniumbase\fixtures\page_actions.py", line 428, in wait_for_element_visible
+    self.js_click('document.querySelector("#SearchResults > li:nth-child(1) > div:nth-child(1) > div.card-image-container > div.thumbnail-overlay")')
+  File "C:\Users\sdrrs\AppData\Local\Programs\Python\Python38\lib\site-packages\seleniumbase\fixtures\base_case.py", line 5463, in js_click
+    element = self.wait_for_element_present(
+  File "C:\Users\sdrrs\AppData\Local\Programs\Python\Python38\lib\site-packages\seleniumbase\fixtures\base_case.py", line 8210, in wait_for_element_present
+    return page_actions.wait_for_element_present(
+  File "C:\Users\sdrrs\AppData\Local\Programs\Python\Python38\lib\site-packages\seleniumbase\fixtures\page_actions.py", line 361, in wait_for_element_present
     timeout_exception(NoSuchElementException, message)
   File "C:\Users\sdrrs\AppData\Local\Programs\Python\Python38\lib\site-packages\seleniumbase\fixtures\page_actions.py", line 191, in timeout_exception
     raise exc(msg)
 Exception: Message: 
- Element {/html/body/div[3]/div/div/div[1]/div[2]/div/div/div[2]/div/div/div[1]/div[2]/section[2]/div/ul/li[1]/div[1]/div[1]/div[4]} was not present after 7 seconds!
+ Element {document.querySelector("#SearchResults > li:nth-child(1) > div:nth-child(1) > div.card-image-container > div.thumbnail-overlay")} was not present after 7 seconds!

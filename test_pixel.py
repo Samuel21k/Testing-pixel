@@ -88,10 +88,9 @@ class HomeTest(BaseCase):
 
             self.click('a[href*="casino"]')
             self.type('#search-box', "mad cars")
-            self.wait(8)
-            self.click("/html/body/div[3]/div/div/div[1]/div[2]/div/div/div[2]/div/div/div[1]/div[2]/section[2]/div/ul/li[1]/div[1]/div[1]/div[4]")
+            self.click('document.querySelector("#SearchResults > li:nth-child(1) > div:nth-child(1) > div.card-image-container > div.thumbnail-overlay")')
             self.click("#pixelContent > div.container-fluid > div > div > div.game-page-container > div.game-image-details > div.game-details > div.game-btns > div.try-game.btn-purple-box")
-            self.wait(5)
+
 
 
 
